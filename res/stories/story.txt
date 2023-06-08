@@ -1,0 +1,80 @@
+// ~ means entry point ! means close app * means there is no options
+scenarios:
+yes.
+no.
+do nothing.
+call ambulance.
+take him to hospital.
+help him and give him money
+end:
+
+imgs:
+*
+*
+*
+*
+*
+*
+end:
+
+situation: 1
+Would you like to play again.
+
+action:
+1 2
+~ !
+end:
+
+entry:
+situation: 2
+You are coming home from work late.
+You saw a flipped car and there is a person in it.
+
+action:
+3 4 5
+3 4 5
+end:
+
+situation: 3
+You saw on the television that the man died in his car.
+
+action:
+*
+1
+end:
+
+situation: 4
+The ambulance came to rescue the man.
+They took the you and the man to the hospital.
+The man needed to have sergury but his family can't afford it.
+
+action:
+6 3
+6 7
+end:
+
+situation: 5
+The man died while you were taking him to the hospital.
+
+action:
+*
+1
+end:
+
+situation: 6
+The man survived because of you.
+You won.
+
+action:
+*
+1
+end:
+
+situation: 7
+The man died because of your greed.
+YOU ARE A MONSTER.
+
+action:
+*
+1
+end:
