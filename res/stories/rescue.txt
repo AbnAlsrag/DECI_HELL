@@ -1,0 +1,78 @@
+// ~ means the entry point ! means close the app * means there is no options
+// scenarios block contains all possible choices in the story
+// ^&^ is a keyword that chooses one of the two operands the left or the right on that is next to it for randomness in the story
+// situation block contains the situation text and choices and next situations
+// the parser doesn't look at any thing after the (:) in the (scenarios or situation) blocks so the numbering is optional
+// any thing except what is in the (scenarios or situation) blocks is considered a comment by the parser so // is not necessary but i'm using them for aesthetic reasons
+// Bad thing that i don't like that the randomness (^&^) keyword only works when the app restarts and i am to lazy to fix it there for it is a feature from now and on
+
+scenarios:
+yes.
+no.
+do nothing.
+call ambulance.
+take him to hospital.
+help him and give him money.
+end:
+
+situation: 1
+Would you like to play again.
+
+action:
+1 2
+~ !
+end:
+
+entry:
+situation: 2
+You are coming home from work late. ^&^ You heard accident sound from the street
+You saw a flipped car and there is a person in it.
+
+action:
+3 4 5
+3 4 5
+end:
+
+situation: 3
+You saw on the television that the man died in his car. ^&^ You saw on the television that the man is in the hospital now and he is still alive.
+
+action:
+*
+1
+end:
+
+situation: 4
+The ambulance came to rescue the man.
+They took the you and the man to the hospital.
+The man needed to have sergury but his family can't afford it.
+
+action:
+6 3
+6 7
+end:
+
+situation: 5
+The man died while you were taking him to the hospital. ^&^ The man is curing in the hospital because of you
+
+action:
+*
+1
+end:
+
+situation: 6
+The man survived because of you.
+You won.
+
+action:
+*
+1
+end:
+
+situation: 7
+The man died because of your greed.
+YOU ARE A MONSTER.
+
+action:
+*
+1
+end:

@@ -1,1 +1,1 @@
-python src\project.py
+python src/project.py
