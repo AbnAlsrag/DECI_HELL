@@ -11,6 +11,10 @@
 // I named the (^&^) keyword ROGUY because it is rogue all the time and don't listen to any body
 // Say "Hello, World!\n" to ROGUY
 
+hi:
+
+end:
+
 scenarios:
 yes.
 no.
