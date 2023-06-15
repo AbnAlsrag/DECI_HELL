@@ -8,7 +8,7 @@
 // Bad thing that i don't like that the randomness (^&^) keyword only works when the app restarts and i am too lazy to fix it there for it is a feature from now and on not a bug
 // Thing that i don't like that the score can't change with the according to the choice of the (^&^) keyword but to do it it will take more work and effort than i want to spend i really want to play factorio :)
 // I was thinking of adding the ( _ ) operator to make the score change score value according to the choice if the (^&^) keyword but i said nah the factory must grow
-// I named the (^&^) keyword ROGUY because it is rogue all the time and don't listen to any body
+// I named the (^&^) keyword ROGUY because it is rogue all the time and don't listen to anyone
 // Say "Hello, World!\n" to ROGUY
 
 hi:
