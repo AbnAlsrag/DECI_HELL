@@ -131,14 +131,14 @@ class Game:
             ):
                 self.__clear_window()
                 self.__slow_print(
-                    "################################" + "####################"
+                    "####################################################"
                 )
                 self.__slow_print(
                     f"Invalid input ({choosen_one}) input ranges from "
                     + f"({1}, {len(self.__situations[situation].scenarios)})"
                 )
                 self.__slow_print(
-                    "################################" + "####################"
+                    "####################################################"
                 )
                 self.__slow_print()
                 self.__pause()
@@ -146,7 +146,7 @@ class Game:
         except ValueError:
             self.__clear_window()
             self.__slow_print(
-                "###############################" + "#####################"
+                "####################################################"
             )
             self.__slow_print(
                 f"Invalid input {input_string} "
@@ -154,7 +154,7 @@ class Game:
                 + "numbers (0-9)"
             )
             self.__slow_print(
-                "###############################" + "#####################"
+                "####################################################"
             )
             self.__slow_print()
             self.__pause()
